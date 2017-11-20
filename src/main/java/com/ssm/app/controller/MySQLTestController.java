@@ -21,7 +21,6 @@ public class MySQLTestController {
     @RequestMapping(value = "/testMysql")
     public @ResponseBody
     List<Map<String, Object>> test(){
-
         List<Map<String, Object>> result = jdbcTemplate.queryForList("SELECT  count(*) FROM users");
         return result;
     }

@@ -5,13 +5,16 @@ package com.ssm.app.domain;
  */
 public class User {
 
-    Integer uid;
+
     String name;
+    String password;
+    Integer uid;
     Integer age;
 
-    public User(Integer uid, String name, Integer age){
-        this.uid = uid;
+    public User(String name, String password, Integer uid, Integer age) {
         this.name = name;
+        this.password = password;
+        this.uid = uid;
         this.age = age;
     }
 
@@ -37,5 +40,13 @@ public class User {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

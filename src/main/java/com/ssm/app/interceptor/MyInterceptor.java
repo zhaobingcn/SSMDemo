@@ -15,6 +15,10 @@ public class MyInterceptor implements HandlerInterceptor{
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         System.out.println("第一次调用");
+        String username = (String)httpServletRequest.getSession().getAttribute("username");
+        if(username == null){
+            System.out.println("当前用户未登录");
+        }
         return true;
     }
 

@@ -4,6 +4,7 @@
 /Users/zhzy/didiProjects/SSMDemo/src/main/java/com/ssm/app/mapper/UserMapper.java
 /Users/zhzy/didiProjects/SSMDemo/src/main/java/com/ssm/app/controller/MySQLTestController.java
 /Users/zhzy/didiProjects/SSMDemo/src/main/java/com/ssm/app/config/MyWebAppConfigurer.java
+/Users/zhzy/didiProjects/SSMDemo/src/main/java/com/ssm/app/controller/LoginRegisterController.java
 /Users/zhzy/didiProjects/SSMDemo/src/main/java/com/ssm/app/controller/MyBatisTestController.java
 /Users/zhzy/didiProjects/SSMDemo/src/main/java/com/ssm/app/filter/MyFilter.java
 /Users/zhzy/didiProjects/SSMDemo/src/main/java/com/ssm/app/SpringBootSSMApplication.java
