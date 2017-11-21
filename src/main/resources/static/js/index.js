@@ -10,18 +10,16 @@ function showDetail() {
 
 function getQueryData() {
     var name = $("#user-name").val();
-    var authorsDetail;
+    var details;
     $.ajax({
         url : "/detail",
         data : {
             "name": name},
         dataType: "json",
         async: false,
-            success: function (authorsData) {
-                authorsDetail = authorsData;
+            success: function (data) {
+                details = data;
             }
-
         });
-    return authorsDetail;
-
+    return details;
 }
