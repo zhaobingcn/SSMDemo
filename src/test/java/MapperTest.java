@@ -21,7 +21,7 @@ public class MapperTest {
 
     @Test
     public void insert(){
-        userMapper.insert(100, "admin", 50, "qeqweqw");
+        userMapper.insert(100, "admin", 50, "654321");
         User u = userMapper.findByName("admin");
         Assert.assertEquals(u.getAge().intValue(), 50);
     }

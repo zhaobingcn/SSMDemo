@@ -9,15 +9,15 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by zhzy on 2017/11/16.
  */
-@RestController
+//@RestController
 @ServletComponentScan
 @SpringBootApplication
 public class SpringBootSSMApplication {
 
-    @RequestMapping("/")
-    String index(){
-        return "hello boot";
-    }
+//    @RequestMapping("/")
+//    String index(){x
+//        return "hello boot";
+//    }
 
     public static void main(String[] args){
         SpringApplication.run(SpringBootSSMApplication.class, args);
