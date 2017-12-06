@@ -33,9 +33,11 @@
                 </div>
             </form>
 
-            <h3  onclick="showDetail()" id="advencedInformation">advenced information</h3>
+            <h3  onclick="showDetail()" id="advancedInformation">advanced information</h3>
 
-            <div id = "detail-list"></div>
+            <div id = "detail-list">
+                
+            </div>
 
         </div>
         <div class="clear"></div>

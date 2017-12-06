@@ -15,8 +15,8 @@ function getQueryData() {
         url : "/detail",
         data : {
             "name": name},
-        dataType: "json",
-        async: false,
+            dataType: "json",
+            async: false,
             success: function (data) {
                 details = data;
             }
