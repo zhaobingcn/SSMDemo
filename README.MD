@@ -11,7 +11,7 @@
 
 包括name(String),password(String),uid(int),age(int)四个字段
 
-3.修改配置文件
+3.修改配置文件 application.properties
 
 #Mysql 连接 </br>
 spring.datasource.url=jdbc:mysql://127.0.0.1:3306/**db名称**?characterEncoding=utf8&useSSL=false </br>
