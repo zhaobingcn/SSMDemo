@@ -20,6 +20,6 @@ spring.datasource.password=*数据库密码* </br>
 
 4.运行
 
-命令： mvn spring-boot:run
+在根目录下输入命令： mvn spring-boot:run
 
 5.打开浏览器输入 http://localhost:8088 即可
